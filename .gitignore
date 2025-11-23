@@ -1,0 +1,24 @@
+# General
+.DS_Store
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*.tfbackend
+.terraform.lock.hcl
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+
+# Node.js / CDK
+**/node_modules/
+**/cdk.out/
+npm-debug.log
+yarn-error.log
