@@ -1,7 +1,0 @@
-namespace:
-  name: stage
-
-replicaCount: 3
-
-labels:
-  environment: stage
