@@ -1,0 +1,7 @@
+namespace:
+  name: dev
+
+replicaCount: 2
+
+labels:
+  environment: dev
